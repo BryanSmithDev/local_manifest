@@ -42,7 +42,7 @@
   <project path="BryanSmithDev/android_vendor_pa" name="BryanSmithDev/android_vendor_pa" remote="github" revision="lollipop"/>
   <project path="BryanSmithDev/manifest" name="BryanSmithDev/manifest" remote="github" revision="lollipop"/>
   <project path="BryanSmithDev/android_device_htc_dlx" name="BryanSmithDev/android_device_htc_dlx" remote="github" revision="lollipop"/>
-  <project path="BryanSmithDev/android_packages_apps_ParanoidOTA" name="BryanSmithDev/android_packages_apps_ParanoidOTA" remote="github" revision="lollipop"/>
+  <project path="BryanSmithDev/android_packages_apps_ParanoidOTA" name="BryanSmithDev/android_packages_apps_ParanoidOTA" remote="github" revision="kitkat"/>
 
   <project path="CyanogenMod/android_device_htc_dlx" name="CyanogenMod/android_device_htc_dlx" remote="cm" revision="cm-12.0"/>
 </manifest>
