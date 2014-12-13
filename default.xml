@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+
+  <remote  name="github"
+           fetch="https://github.com"
+           review="gerrit.aospal.com" />
+
+  <remote  name="cm"
+           fetch="git://github.com"
+           review="review.cyanogenmod.org" />
+
+
+  <project path="manifest" name="BryanSmithDev/local_manifest" remote="github" revision="master" />
+  <project path="AOSPA-legacy/manifest" name="AOSPA-legacy/manifest" remote="github" revision="lollipop" />
+  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="lollipop" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
+  <project path="AOSPA-Legacy/bionic" name="AOSPA-legacy/android_bionic" remote="github" revision="lollipop"  />
+  <project path="AOSPA-Legacy/external/jpeg" name="AOSPA-legacy/android_external_jpeg" remote="github" revision="lollipop"  />
+  <project path="AOSPA-Legacy/external/skia" name="AOSPA-legacy/android_external_skia" remote="github" revision="lollipop" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="AOSPA-Legacy/frameworks/base" name="AOSPA-legacy/android_frameworks_base" remote="github" revision="lollipop" groups="pdk-cw-fs" />
+  <project path="AOSPA-Legacy/frameworks/opt/telephony" name="AOSPA-legacy/android_frameworks_opt_telephony" remote="github" revision="lollipop"  />
+  <project path="AOSPA-Legacy/packages/apps/Contacts" name="AOSPA-legacy/android_packages_apps_Contacts" remote="github" revision="lollipop" />
+  <project path="AOSPA-Legacy/packages/apps/DeskClock" name="AOSPA-legacy/android_packages_apps_Deskclock" remote="github" revision="lollipop" />
+  <project path="AOSPA-Legacy/packages/apps/Dialer" name="AOSPA-legacy/android_packages_apps_Dialer" remote="github" revision="lollipop" />
+  <project path="AOSPA-Legacy/packages/apps/InCallUI" name="AOSPA-legacy/android_packages_apps_InCallUI" remote="github" revision="lollipop" />
+  <project path="AOSPA-Legacy/packages/apps/Mms-caf" name="AOSPA-legacy/android_packages_apps_Mms-caf" remote="github" revision="lollipop" />
+  <project path="AOSPA-Legacy/packages/apps/Settings" name="AOSPA-legacy/android_packages_apps_Settings" remote="github" revision="lollipop"  />
+  <project path="AOSPA-Legacy/packages/providers/TelephonyProvider" name="AOSPA-legacy/android_packages_providers_TelephonyProvider" remote="github" revision="lollipop" />
+  <project path="AOSPA-Legacy/packages/services/Telecomm" name="AOSPA-legacy/android_packages_services_Telecomm" remote="github" revision="lollipop" />
+  <project path="AOSPA-Legacy/packages/services/Telephony" name="AOSPA-legacy/android_packages_services_Telephony" remote="github" revision="lollipop" />
+  <project path="AOSPA-Legacy/system/core" name="AOSPA-legacy/android_system_core" remote="github" revision="lollipop"  />
+
+  <project path="AOSPA-Legacy/vendor/pa" name="BryanSmithDev/android_vendor_pa" remote="github" revision="lollipop" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+  
+  <project path="BryanSmithDev/android_vendor_pa" name="BryanSmithDev/android_vendor_pa" remote="github" revision="lollipop"/>
+  <project path="BryanSmithDev/manifest" name="BryanSmithDev/manifest" remote="github" revision="lollipop"/>
+  <project path="BryanSmithDev/android_device_htc_dlx" name="BryanSmithDev/android_device_htc_dlx" remote="github" revision="lollipop"/>
+  <project path="BryanSmithDev/android_packages_apps_ParanoidOTA" name="BryanSmithDev/android_packages_apps_ParanoidOTA" remote="github" revision="lollipop"/>
+
+  <project path="CyanogenMod/android_device_htc_dlx" name="CyanogenMod/android_device_htc_dlx" remote="cm" revision="cm-12.0"/>
+</manifest>
