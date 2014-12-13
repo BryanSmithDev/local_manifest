@@ -15,7 +15,7 @@
 
   <project path="manifest" name="BryanSmithDev/local_manifest" remote="github" revision="master" />
   <project path="AOSPA-legacy/manifest" name="AOSPA-legacy/manifest" remote="github" revision="lollipop" />
-  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="lollipop" >
+  <project path="AOSPA-legacy/build" name="AOSPA-legacy/android_build" remote="github" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
