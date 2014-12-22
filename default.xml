@@ -31,7 +31,7 @@
   <project path="AOSPA-Legacy/packages/services/Telecomm" name="AOSPA-legacy/android_packages_services_Telecomm" remote="github" revision="lollipop" />
   <project path="AOSPA-Legacy/packages/services/Telephony" name="AOSPA-legacy/android_packages_services_Telephony" remote="github" revision="lollipop" />
   <project path="AOSPA-Legacy/system/core" name="AOSPA-legacy/android_system_core" remote="github" revision="lollipop"  />
-  <project path="AOSPA-Legacy/vendor/pa" name="BryanSmithDev/android_vendor_pa" remote="github" revision="lollipop" />
+  <project path="AOSPA-Legacy/vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="lollipop" />
   
   <project path="BryanSmithDev/android_vendor_pa" name="BryanSmithDev/android_vendor_pa" remote="github" revision="lollipop"/>
   <project path="BryanSmithDev/manifest" name="BryanSmithDev/manifest" remote="github" revision="lollipop"/>
