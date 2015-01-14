@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch="https://github.com"/>
+
   <remote  name="BryanSmithDev"
            fetch="https://github.com"/>
 
@@ -24,5 +27,26 @@
 
   <project path="CyanogenMod/android_device_htc_dlx" name="CyanogenMod/android_device_htc_dlx" remote="CyanogenMod" revision="cm-12.0"/>
   <project path="CyanogenMod/android_device_htc_msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="CyanogenMod" revision="cm-12.0"/>
+  
+  
+  <project path="kernel" name="BryanSmithDev/linux-2.6" remote="github" revision="rel-tegranote-r8" />
+  <project path="external/alsa-lib" name="BryanSmithDev/android_external_alsa-lib" remote="github" revision="rel-tegranote-r8" />
+  <project path="3rdparty/ti/hostap-partner" name="BryanSmithDev/android_3rdparty_ti_hostap-partner" remote="github" revision="rel-tegranote-r8" />
+  <project path="3rdparty/ti/compat-wireless" name="BryanSmithDev/android_3rdparty_ti_compat-wireless" remote="github" revision="rel-tegranote-r8" />
+  <project path="3rdparty/ti/libnl" name="BryanSmithDev/android_3rdparty_ti_libnl" remote="github" revision="rel-tegranote-r8" />
+  <project path="3rdparty/ti/crda" name="BryanSmithDev/android_3rdparty_ti_crda" remote="github" revision="rel-tegranote-r8" />
+  <project path="3rdparty/ti/uim-sysfs" name="BryanSmithDev/android_3rdparty_ti_uim-sysfs" remote="github" revision="rel-tegranote-r8" />
+  <project path="3rdparty/ti/bluedroid_wilink" name="BryanSmithDev/android_3rdparty_ti_bluedroid-wilink" remote="github" revision="rel-tegranote-r8" />
+  <project path="3rdparty/trustedlogic/sdk" name="BryanSmithDev/android_3rdparty_trustedlogic-sdk" remote="github" revision="rel-tegranote-r8-partner" />
+  <project path="vendor/nvidia/build" name="BryanSmithDev/android_vendor_nvidia_build" remote="github" revision="rel-tegranote-r8" />
+  <project path="vendor/nvidia/licensed-binaries" name="BryanSmithDev/android_vendor_nvidia_licensed-binaries" remote="github" revision="rel-tegranote-r8-partner" />
+  
+  <project path="3rdparty/ti/binaries/bluetooth-firmware" name="BryanSmithDev/android_3rdparty_ti_binaries_bluetooth-firmware" remote="github" revision="rel-tegranote-r8-partner" />
+  <project path="3rdparty/ti/binaries/wifi-firmware" name="BryanSmithDev/android_3rdparty_ti_binaries_wifi-firmware" remote="github" revision="rel-tegranote-r8-partner"/>
+  <project path="3rdparty/ti/ti-utils" name="BryanSmithDev/android_3rdparty_ti_ti-utils-release" remote="github" revision="rel-tegranote-r8-partner" />
+  
+  
+  <project path="device/nvidia" name="BryanSmithDev/android_device_nvidia_tegratab-common" remote="github" revision="rel-tegranote-r8-partner" />
+  <project path="device/nvidia/tegratab" name="BryanSmithDev/android_device_nvidia_tegratab" remote="github" revision="rel-tegranote-r8-partner" />
   
 </manifest>
