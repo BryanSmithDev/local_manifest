@@ -28,7 +28,7 @@
   <project path="CyanogenMod/android_device_htc_dlx" name="CyanogenMod/android_device_htc_dlx" remote="CyanogenMod" revision="cm-12.0"/>
   <project path="CyanogenMod/android_device_htc_msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="CyanogenMod" revision="cm-12.0"/>
   
-  
+  <!--
   <project path="Tegra/kernel" name="BryanSmithDev/linux-2.6" remote="github" revision="rel-tegranote-r8" />
   <project path="Tegra/external/alsa-lib" name="BryanSmithDev/android_external_alsa-lib" remote="github" revision="rel-tegranote-r8" />
   <project path="Tegra/3rdparty/ti/hostap-partner" name="BryanSmithDev/android_3rdparty_ti_hostap-partner" remote="github" revision="rel-tegranote-r8" />
@@ -48,5 +48,5 @@
   
   <project path="Tegra/device/nvidia" name="BryanSmithDev/android_device_nvidia_tegratab-common" remote="github" revision="rel-tegranote-r8-partner" />
   <project path="Tegra/device/nvidia/tegratab" name="BryanSmithDev/android_device_nvidia_tegratab" remote="github" revision="rel-tegranote-r8-partner" />
-  
+  -->
 </manifest>
