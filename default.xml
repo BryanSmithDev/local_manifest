@@ -15,6 +15,9 @@
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
   
+  <remote  name="UVAWise-MCS"
+           fetch="https://github.com"/>
+  
   <project path="local_manifest" name="BryanSmithDev/local_manifest" remote="BryanSmithDev" revision="master" />
 
   <project path="AOSPA-legacy/manifest" name="AOSPA-legacy/manifest" remote="AOSPA-legacy" revision="lollipop" />
@@ -27,6 +30,8 @@
 
   <project path="CyanogenMod/android_device_htc_dlx" name="CyanogenMod/android_device_htc_dlx" remote="CyanogenMod" revision="cm-12.0"/>
   <project path="CyanogenMod/android_device_htc_msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="CyanogenMod" revision="cm-12.0"/>
+  
+  <project path="UVAWise-MCS/Configuration-Management" name="UVAWise-MCS/Configuration-Management" remote="UVAWise-MCS" revision="Bryan"/>
   
   <!--
   <project path="Tegra/kernel" name="BryanSmithDev/linux-2.6" remote="github" revision="rel-tegranote-r8" />
