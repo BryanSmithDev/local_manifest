@@ -27,6 +27,7 @@
   
   <project path="BryanSmithDev/android_device_htc_dlx" name="BryanSmithDev/android_device_htc_dlx" remote="BryanSmithDev" revision="lollipop"/>
   <project path="BryanSmithDev/android_packages_apps_ParanoidOTA" name="BryanSmithDev/android_packages_apps_ParanoidOTA" remote="BryanSmithDev" revision="lollipop"/>
+  <project path="BryanSmithDev/repo-utils" name="BryanSmithDev/repo-utils" remote="BryanSmithDev" revision="master"/>
 
   <project path="CyanogenMod/android_device_htc_dlx" name="CyanogenMod/android_device_htc_dlx" remote="CyanogenMod" revision="cm-12.0"/>
   <project path="CyanogenMod/android_device_htc_msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="CyanogenMod" revision="cm-12.0"/>
