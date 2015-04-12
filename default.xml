@@ -20,7 +20,7 @@
 
   <project path="AOSPA-legacy/manifest" name="AOSPA-legacy/manifest" remote="AOSPA-legacy" revision="lollipop-mr1" />
   <project path="AOSPA-legacy/android_packages_apps_ParanoidOTA" name="AOSPA-legacy/android_packages_apps_ParanoidOTA" remote="AOSPA-legacy" revision="lollipop"/>
-  <project path="AOSPA-Legacy/vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="AOSPA-legacy" revision="lollipop-mr1" />
+  <project path="AOSPA-legacy/vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="AOSPA-legacy" revision="lollipop-mr1" />
   
   
   <project path="BryanSmithDev/android_device_htc_dlx" name="BryanSmithDev/android_device_htc_dlx" remote="BryanSmithDev" revision="lollipop-mr1"/>
