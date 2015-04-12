@@ -15,24 +15,20 @@
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
   
-  <remote  name="UVAWise-MCS"
-           fetch="https://github.com"/>
   
-  <project path="local_manifest" name="BryanSmithDev/local_manifest" remote="BryanSmithDev" revision="master" />
+  <project path="local_manifest" name="BryanSmithDev/local_manifest" remote="BryanSmithDev" revision="lollipop-mr1" />
 
-  <project path="AOSPA-legacy/manifest" name="AOSPA-legacy/manifest" remote="AOSPA-legacy" revision="lollipop" />
-  <project path="AOSPA-legacy/android_packages_apps_ParanoidOTA" name="AOSPA-legacy/android_packages_apps_ParanoidOTA" remote="AOSPA-legacy" revision="kitkat"/>
-  <project path="AOSPA-Legacy/vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="AOSPA-legacy" revision="lollipop" />
+  <project path="AOSPA-legacy/manifest" name="AOSPA-legacy/manifest" remote="AOSPA-legacy" revision="lollipop-mr1" />
+  <project path="AOSPA-legacy/android_packages_apps_ParanoidOTA" name="AOSPA-legacy/android_packages_apps_ParanoidOTA" remote="AOSPA-legacy" revision="lollipop"/>
+  <project path="AOSPA-Legacy/vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="AOSPA-legacy" revision="lollipop-mr1" />
   
   
-  <project path="BryanSmithDev/android_device_htc_dlx" name="BryanSmithDev/android_device_htc_dlx" remote="BryanSmithDev" revision="lollipop"/>
+  <project path="BryanSmithDev/android_device_htc_dlx" name="BryanSmithDev/android_device_htc_dlx" remote="BryanSmithDev" revision="lollipop-mr1"/>
   <project path="BryanSmithDev/android_packages_apps_ParanoidOTA" name="BryanSmithDev/android_packages_apps_ParanoidOTA" remote="BryanSmithDev" revision="lollipop"/>
-  <project path="BryanSmithDev/repo-utils" name="BryanSmithDev/repo-utils" remote="BryanSmithDev" revision="master"/>
 
-  <project path="CyanogenMod/android_device_htc_dlx" name="CyanogenMod/android_device_htc_dlx" remote="CyanogenMod" revision="cm-12.0"/>
-  <project path="CyanogenMod/android_device_htc_msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="CyanogenMod" revision="cm-12.0"/>
+  <project path="CyanogenMod/android_device_htc_dlx" name="CyanogenMod/android_device_htc_dlx" remote="CyanogenMod" revision="cm-12.1"/>
+  <project path="CyanogenMod/android_device_htc_msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="CyanogenMod" revision="cm-12.1"/>
   
-  <project path="UVAWise-MCS/Configuration-Management" name="UVAWise-MCS/Configuration-Management" remote="UVAWise-MCS" revision="Bryan"/>
   
   <!--
   <project path="Tegra/kernel" name="BryanSmithDev/linux-2.6" remote="github" revision="rel-tegranote-r8" />
